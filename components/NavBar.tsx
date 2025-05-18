@@ -11,7 +11,7 @@ const navLinks = [
 ];
 
 export default function NavBar() {
-  const [nav, setNav] = useState<Boolean>(false)
+  const [nav, setNav] = useState(false)
 
   const toggleNav = () => {
     setNav(!nav)
